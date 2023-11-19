@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://images.pexels.com/photos/1005324/literature-book-open-pages-1005324.jpeg?cs=srgb&dl=antique-book-book-bindings-1005324.jpg&fm=jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px; /* Adjust as per your preference */
+    margin-top: 50px; /* Add padding from the top */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Optional: Rounds the corners */
+    overflow: hidden;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    width: calc(100% - 22px); /* Adjusts width considering padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Optional: Rounds the corners */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: Rounds the corners */
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.books-container {
+    margin-top: 20px;
+}
+
+.book-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Optional: Rounds the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
