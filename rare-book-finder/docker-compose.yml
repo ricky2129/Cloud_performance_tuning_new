@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: manavkhandurie/rickfront:1.0
+    ports:
+      - "80:80"
+    restart: on-failure
+
+
+  backend:
+    image: manavkhandurie/rickback:1.0
+    ports:
+      - "3001:3001"
+    restart: on-failure
